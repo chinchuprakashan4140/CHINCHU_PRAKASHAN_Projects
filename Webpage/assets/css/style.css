@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.bg-green{
+    padding-top: 30px;
+    background-color: #069c06;
+    padding-left: 5px;
+    padding-right:5px ;
+}
+.imgpad_20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.desktop{
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 160px;
+    z-index: 99999;
+}
+.desktop>header{
+    background: green;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+}
+.desktop>header>nav{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.desktop>header>nav>ul{
+    list-style: none;
+    float: center;
+}
+.desktop>header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+    font-size: 18px;
+}
+.desktop>header>nav>ul>li:hover{
+    background: linear-gradient(rgba(176, 233, 176, 0.5),rgba(255, 255, 255, 0.5));
+}
+.desktop>header>nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.desktop>h1{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+    text-transform: uppercase;
+}
+.Wel{
+    text-align: justify;
+    
+    column-count: 2;
+    line-height: 2;
+      
+      
+}
+.Wel>h1{
+    text-align: center;
+}
+.Wel>div{
+    background: linear-gradient(to right, #069c06, #0a9205);
+    padding: 20px;
+    color: #fff;
+    line-height: 2;
+}
